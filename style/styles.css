@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+header {
+    background-color: black;
+    height: auto;
+    border: 2px solid rgb(255, 0, 255);
+}
+
+#titulo {
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+#menu {
+    border: 2px solid red;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+}
+
+main {
+    background-color: rgb(180, 180, 180);
+}
+
+#Textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; Os eixos estão invertidos e não consigo utilizar o flex-end / flex-start */
+    border: 2px solid rgb(0, 255, 26);
+}
+
+#Descrição {
+    text-align: center;
+    margin-top: -20px;
+    border: 2px solid rgb(0, 25, 250);
+}
+
+#Propaganda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(72, 61, 167);
+    gap: 100px;
+}
+
+#Informaçōes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 330px;
+    background-color: rgb(130, 130, 130);
+    border-radius: 15px;
+    border: 2px solid rgb(0, 255, 30);
+
+}
+
+#Ficha {
+    text-decoration: none;
+    border: 2px solid rgb(217, 255, 0);
+}
+
+#Yt {
+    margin-right: 0px;
+    width: 600px;
+    height: 330px;
+    border: 3px solid rgba(255, 0, 0, 0.999);
+    border-radius: 15px;
+}
+p {
+    color: rgb(96, 35, 157);
+}
